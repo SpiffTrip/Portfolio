@@ -12,6 +12,24 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 
 }
+/* section styling */
+section {
+    padding: 50px;
+}
+
+.about-me {
+    text-align: center;
+}
+
+
+/* hero styling */
+.hero {
+    background-image: url(../images/trove-guardian-pathway-destiny-2_feature.jpg) ;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
 
  /* header styling */
  header {
