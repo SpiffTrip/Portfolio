@@ -15,11 +15,21 @@ body {
 /* section styling */
 section {
     padding: 50px;
-}
-
-.about-me {
     text-align: center;
 }
+
+
+
+.my-work h3 {
+    margin: 10px;
+    padding: 60px;
+
+}
+
+.my-work img input:focus {
+    border: #33852e;
+}
+
 
 
 /* hero styling */
@@ -34,7 +44,7 @@ section {
  /* header styling */
  header {
      padding: 10px 20px;
-     background-color: greenyellow;
+     background-color: #33852e;
 
  }
 
@@ -69,3 +79,32 @@ section {
      font-weight: lighter;
      font-size: 26px;
  }
+
+ footer {
+     background: #33852e;
+     width: 100%;
+     padding: 40px 40px;
+ }
+
+ /* mobile screen */
+ @media screen and (max-width: 575px) {
+    header {
+        width: 100%;
+    }
+    
+    .hero {
+      width: 100%;
+    }
+  
+    .section {
+      width: 95%;
+    }
+  
+    .contact-me {
+      text-align: center;
+    }
+  
+    .contact-me > * {
+      flex: 0 100%;
+    }
+}
