@@ -1,3 +1,9 @@
+:root {
+    --main-color:#a0fefb;
+    --Secondary-color:#494fc1;
+    --Tertiary-color:#fd084a;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +13,7 @@
 
 body {
   /* COLOR OF PAGE AND FONT LANG! */
-    color: #39a6b2;
+    color: var(--main-color);
     background-color: black;
     font-family: Helvetica, Arial, sans-serif;
 
@@ -26,8 +32,10 @@ section {
 
 }
 
-.my-work img input:focus {
-    border: #33852e;
+.my-work img {
+    border-style: double;
+    border-radius: 5px;
+   
 }
 
 
@@ -44,14 +52,14 @@ section {
  /* header styling */
  header {
      padding: 10px 20px;
-     background-color: #33852e;
+     background-color: var(--Secondary-color);
 
  }
 
  header h1 {
      font-weight: bolder;
      font-size: 42px;
-     color: red;
+     color: var(--main-color);
      margin: 0;
      display: inline;
 
@@ -59,7 +67,7 @@ section {
 
  header a {
      text-decoration: none;
-     color: red;
+     color:var(--main-color);
 
  }
 
@@ -81,7 +89,7 @@ section {
  }
 
  footer {
-     background: #33852e;
+     background: var(--Secondary-color);
      width: 100%;
      padding: 40px 40px;
  }
